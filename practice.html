@@ -17,13 +17,53 @@
     <hr>
     <h2>Search Anything!!</h2>
     <a href="https://www.google.com/">Google</a> <br><br>
-    <a href="file:///C:/Users/srish/Downloads/HTML.pdf" download>HTML Notes</a>
-    <a href="https://www.google.com/" target="_blank"></a>
-    <a href="https://www.google.com/" target="_parent"></a>
-    <a href="https://www.google.com/" target="_self"></a>
-    <a href="https://www.google.com/" target="_top"></a>
-    <a href="#bottom" target="_parent">Bottom</a>
+    <!-- link from my local disc -->
+    <a href="file:///C:/Users/srish/Downloads/HTML.pdf" download>HTML Notes</a><br><hr>
+    <a href="https://www.google.com/" target="_blank"> blank</a><br>
+    <a href="https://www.google.com/" target="_parent">parent</a><br>
+    <a href="https://www.google.com/" target="_self">self</a><br>
+    <a href="https://www.google.com/" target="_top"> top</a><br>
+    <a href="#bottom" target="_parent">Bottom</a><br>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nobis mollitia, asperiores accusantium reiciendis amet culpa voluptatum molestiae animi quidem eos incidunt aperiam minima labore modi quasi eaque tempora exercitationem.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas aut laborum maxime delectus, nulla, magnam sed rerum, sit architecto dolores repellendus perspiciatis vero voluptates consequuntur incidunt ducimus vitae ad.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae fugiat, asperiores nisi facilis ex, nesciunt inventore et culpa debitis tempora commodi voluptatibus! Quibusdam, numquam. Quas laborum deleniti veniam blanditiis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis assumenda doloremque sint. Voluptate error, perferendis consectetur voluptates tempora sequi ad cumque dolore porro quia soluta dignissimos animi aspernatur delec Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore dolores, reiciendis eius veniam nulla placeat debitis quaerat aspernatur necessitatibus illum vel, sit quidem, quam officia facilis blanditiis deleniti aliquid.
+      <hr>
+      <!-- <h2>Planets in Solar System</h2>
+    <img src="images/planets-of-the-solar-system-infographic-free-vector.jpg" alt="Solar system" usemap="#planets">
+      <map name="planets">
+        <area shape="rect" coords="130,30" href="https://en.wikipedia.org/wiki/Sun" alt="Sun">
+        <area shape="rect" coords="160.40,25" href="https://en.wikipedia.org/wiki/Mercury_(planet)" alt="Mercury">
+        
+      </map> -->
+      <hr>
+      <canvas id="myCanvas">
+        It is not supported
+      </canvas>
+      <script>
+        var c=document.getElementById("myCanvas")
+        var ctx=get.Context("2d")
+        ctx.fillstyle="green";
+        ctx.fillReact(20,20,100,120);
+      </script>
+      <hr>
+      <h3>FIGURE TAG</h3>
+      <figure>
+        <img src="images/planets-of-the-solar-system-infographic-free-vector.jpg" alt="planet"width="30%">
+        <figcaption>Solar System</figcaption>
+      </figure>
+      <h3>PICTURE TAG</h3>
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/pinkflower.jpg">
+        <source media="(min-width:450px)" srcset="images/whiteflower.jpg">
+        <img src="images/sunflower.jpg" alt="sunflower">
+      </picture>
+      <h3>SVG TAG</h3>
+      <svg width="100" height="120">
+        <circle cx="50" cy="60" r="60" stroke-width="2" fill="pink"/>
+        
+      </svg>
+      <svg><rect x="120" y="60" width="200"  height="200"   stroke="green" stroke-width="2" fill="blue"/></svg>
+
+
 </body>
-</html>
+</html> 
