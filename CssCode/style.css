@@ -1,7 +1,67 @@
 #container{ 
     margin: 0;
     padding: 0 ;
-    border: 2px ;
+    border: 1px solid black;
     background-color: lavender;
+    width: 100%;
 
+}
+#top-header{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+#logo{
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    
+}
+#banner{
+    border: 1px solid black;
+    height: 50px ;
+    width: 100% ;
+}
+#mainContent{
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#row1{
+    display: flex;
+    
+}
+#row2{
+    display: flex;
+}
+
+.thumb{
+    margin: 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    
+}
+
+.thumbs{
+    margin: 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    
 }
